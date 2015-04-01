@@ -1,0 +1,116 @@
+#grad2 {
+    height: 100%;
+    width:  100%;
+    margin-bottom: 20%
+    background: -webkit-linear-gradient(90deg, #FAFAD2, #FFFFE0); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(90deg, #FAFAD2, #FFFFE0); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(90deg, #FAFAD2, #FFFFE0); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(90deg,#FAFAD2, #FFFFE0); /* Standard syntax (must be last) */
+}
+.navbar-default {
+	background-color:#191919;
+	color:white;
+	height:5.5em;
+	margin-top:0.5em;
+	padding:0.75em;
+	font-size:1em;
+}
+.navbar-default .navbar-brand:hover,
+.navbar-default .navbar-brand:focus {
+    color: #C8DAE8;
+}
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+    color: #C8DAE8;
+}
+.navbar-default .navbar-nav > .active > a:hover, 
+.navbar-default .navbar-nav > .active > a:focus {
+    color: #C8DAE8;
+}
+.navbar-brand{
+	margin-left:0.5em;
+	font-size: 1.5em;
+	
+}
+.tile{
+	height:130px;
+	width:310px;
+}
+.tile.tile-orange {
+background-color: #f39c12;
+border:none;
+opacity:0.7;
+outline:transparent;
+}
+.tile.tile-emrald {
+background-color: #1abc9c;
+border:none;
+opacity:0.7;
+outline:transparent;
+}
+.tile.tile-maroon {
+background-color: #c0392b;
+border:none;
+opacity:0.7;
+outline:transparent;
+}
+.tile.tile-blue {
+background-color: #2E2EFE;
+border:none;
+opacity:0.7;
+outline:transparent;
+}
+.tile:hover,
+.tile:focus{
+opacity:1;
+}
+a {text-decoration: none; }
+.win-container:hover {
+	outline:transparent;
+}
+#myroomies,#mytasks,#addtask{
+	width:70%;
+	height:90%;
+	/* margin-top:-38em;
+	margin-right:20em;
+	align:center; */
+	float:left;
+}
+#menu{
+	width:30%;
+	height:100%;
+	float:left;
+}
+ .container-fluid {
+  background: -webkit-linear-gradient(left top, #FFFAF6 , #C0C0C0); For Safari 5.1 to 6.0
+  background: -o-linear-gradient(bottom right, 	#FFFAF6, #C0C0C0); For Opera 11.1 to 12.0
+  background: -moz-linear-gradient(bottom right, #FFFAF6, #C0C0C0); For Firefox 3.6 to 15
+  background: linear-gradient(to bottom right, #FFFAF6 , #C0C0C0); Standard syntax
+}
+/* #main {
+  height:30em;
+  background: -webkit-linear-gradient(left top, #FFFAF6 , #C0C0C0); For Safari 5.1 to 6.0
+  background: -o-linear-gradient(bottom right, 	#FFFAF6, #C0C0C0); For Opera 11.1 to 12.0
+  background: -moz-linear-gradient(bottom right, #FFFAF6, #C0C0C0); For Firefox 3.6 to 15
+  background: linear-gradient(to bottom right, #FFFAF6 , #C0C0C0); Standard syntax
+} */
+#icon-text{
+	margin-top:0.25em;
+	text-align:center;
+	color:white;
+}
+#icon{
+	margin-top:0.25em;
+	padding-left:3em;
+}
+li {
+	list-style:none;
+	
+}
+ul {
+    list-style:none;
+    padding-left:0;
+}
+#newroomies{
+	font-size:1em;
+}​ 

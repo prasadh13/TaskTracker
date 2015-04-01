@@ -1,0 +1,153 @@
+<!DOCTYPE web-app PUBLIC
+ "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+ "http://java.sun.com/dtd/web-app_2_3.dtd" >
+
+<web-app>
+  <display-name>Archetype Created Web Application</display-name>
+  
+<servlet>
+	<servlet-name>ValidateLogin</servlet-name>
+	<servlet-class>Servlet.ValidateLogin</servlet-class>
+</servlet>
+
+<servlet>
+	<servlet-name>displayAndAddMembers</servlet-name>
+	<servlet-class>Servlet.displayAndAddMembers</servlet-class>
+</servlet>
+
+<servlet>
+	<servlet-name>registerUser</servlet-name>
+	<servlet-class>Servlet.RegisterUser</servlet-class>
+</servlet>
+
+<servlet>
+	<servlet-name>displayTasks</servlet-name>
+	<servlet-class>Servlet.displayTasks</servlet-class>
+</servlet>
+
+<servlet>
+	<servlet-name>AddTask</servlet-name>
+	<servlet-class>Servlet.AddTask</servlet-class>
+</servlet>
+<servlet>
+	<servlet-name>previousAddTask</servlet-name>
+	<display-name>previousAddTask</display-name>
+	<description></description>
+	<servlet-class>Servlet.previousAddTask</servlet-class>
+</servlet>
+<servlet>
+	<servlet-name>TaskComplete</servlet-name>
+	<display-name>TaskComplete</display-name>
+	<description></description>
+	<servlet-class>Servlet.TaskComplete</servlet-class>
+</servlet>
+<servlet>
+	<servlet-name>AssignTask</servlet-name>
+	<display-name>AssignTask</display-name>
+	<description></description>
+	<servlet-class>Servlet.AssignTask</servlet-class>
+</servlet>
+<servlet>
+	<servlet-name>displayRecurTasks</servlet-name>
+	<display-name>displayRecurTasks</display-name>
+	<description></description>
+	<servlet-class>Servlet.displayRecurTasks</servlet-class>
+</servlet>
+
+<servlet>
+	<servlet-name>TestForServletItr2</servlet-name>
+	<display-name>TestForServletItr2</display-name>
+	<description></description>
+	<servlet-class>Servlet.TestForServletItr2</servlet-class>
+</servlet>
+<servlet>
+	<servlet-name>DisplayMasterTasks</servlet-name>
+	<display-name>DisplayMasterTasks</display-name>
+	<description></description>
+	<servlet-class>Servlet.DisplayMasterTasks</servlet-class>
+</servlet>
+<servlet>
+	<servlet-name>CreateTasks</servlet-name>
+	<display-name>CreateTasks</display-name>
+	<description></description>
+	<servlet-class>Servlet.CreateTasks</servlet-class>
+</servlet>
+
+<servlet>
+	<servlet-name>AdvanceDate</servlet-name>
+	<servlet-class>Servlet.AdvanceDate</servlet-class>
+</servlet>
+
+<servlet>
+	 <servlet-name>TestingItr3</servlet-name>
+	 <display-name>TestingItr3</display-name>
+	 <description></description>
+	 <servlet-class>Servlet.TestingItr3</servlet-class>
+</servlet>
+
+
+<servlet-mapping>
+  	<servlet-name>TestingItr3</servlet-name>
+  	<url-pattern>/TestingItr3</url-pattern>
+</servlet-mapping>
+
+<servlet-mapping>
+  	<servlet-name>AdvanceDate</servlet-name>
+  	<url-pattern>/AdvanceDate</url-pattern>
+</servlet-mapping>
+
+
+<servlet-mapping>
+  	<servlet-name>ValidateLogin</servlet-name>
+  	<url-pattern>/ValidateLogin</url-pattern>
+</servlet-mapping>
+
+<servlet-mapping>
+  	<servlet-name>displayAndAddMembers</servlet-name>
+  	<url-pattern>/displayAndAddMembers</url-pattern>
+</servlet-mapping> 
+
+<servlet-mapping>
+  	<servlet-name>registerUser</servlet-name>
+  	<url-pattern>/RegisterUser</url-pattern>
+</servlet-mapping>	
+
+<servlet-mapping>
+  	<servlet-name>displayTasks</servlet-name>
+  	<url-pattern>/displayTasks</url-pattern>
+</servlet-mapping>
+
+<servlet-mapping>
+  	<servlet-name>AddTask</servlet-name>
+  	<url-pattern>/AddTask</url-pattern>
+</servlet-mapping>
+<servlet-mapping>
+	<servlet-name>previousAddTask</servlet-name>
+	<url-pattern>/previousAddTask</url-pattern>
+</servlet-mapping>
+<servlet-mapping>
+	<servlet-name>TaskComplete</servlet-name>
+	<url-pattern>/TaskComplete</url-pattern>
+</servlet-mapping>
+<servlet-mapping>
+	<servlet-name>AssignTask</servlet-name>
+	<url-pattern>/AssignTask</url-pattern>
+</servlet-mapping>
+<servlet-mapping>
+	<servlet-name>displayRecurTasks</servlet-name>
+	<url-pattern>/displayRecurTasks</url-pattern>
+</servlet-mapping>
+<servlet-mapping>
+	<servlet-name>TestForServletItr2</servlet-name>
+	<url-pattern>/TestForServletItr2</url-pattern>
+</servlet-mapping>
+<servlet-mapping>
+	<servlet-name>DisplayMasterTasks</servlet-name>
+	<url-pattern>/DisplayMasterTasks</url-pattern>
+</servlet-mapping>
+<servlet-mapping>
+	<servlet-name>CreateTasks</servlet-name>
+	<url-pattern>/CreateTasks</url-pattern>
+</servlet-mapping>
+</web-app>
+			
