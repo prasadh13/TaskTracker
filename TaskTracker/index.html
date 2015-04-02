@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<title>The Room Mate Agreement</title>
+<script type="text/javascript" src="js/jquery-1.11.0.min.js"></script>
+<script type="text/javascript" src="js/jquery.leanModal.min.js"></script>
+<link type="text/css" rel="stylesheet" href="css/bootstrap.min.css" />
+<link type="text/css" rel="stylesheet" href="css/style.css" />
+
+<body>
+<div class="container" align="center">
+	<div id="w" style="margin-top:6em">
+		<img src="images\roommatelogo.jpg" width="440" height="340"/>
+		<br><br>
+		<p id="info">Task tracker for room mates.</p>
+		<br><br>
+		<p>
+			<table>
+				<tr>
+					<td>
+  						<center><a href="#loginmodal" style="text-decoration:none" class="flatbtn" id="modaltrigger" rel="mod">&nbsp;&nbsp;Login&nbsp;&nbsp;</a></center>
+  					</td>
+  					<td>&nbsp;&nbsp;&nbsp;</td>
+  					<td>
+  						<center><a href="#signupmodal" style="text-decoration:none" class="flatbtn" id="modaltrigger" rel="mod">Sign Up</a></center>
+  					</td>
+  				</tr>
+  			</table>	
+		</p>
+	<div id="loginmodal" style="display:none;">
+  		<h1>User Login</h1>
+  		<form id="loginform" name="loginform">
+    		<input type="text" name="username" id="username" class="txtfield" placeholder="Username">
+     
+    		<input type="password" name="password" id="password" class="txtfield" placeholder="Password">
+     
+    		<div class="center"><input type="submit" name="loginbtn" id="loginbtn" class="flatbtn-blu hidemodal" value="Login" tabindex="3"></div>
+  		</form>
+	</div>
+  <div id="signupmodal" style="display:none;">
+      <h1>Register</h1>
+      <form id="signupform" name="signupform">
+        <input type="text" name="firstname" id="firstname" class="txtfield" placeholder="Firstname">
+
+        <input type="text" name="lastname" id="lastname" class="txtfield" placeholder="Lastname">
+
+        <input type="text" name="email" id="email" class="txtfield" placeholder="Email address">
+
+        <input type="text" name="phone" id="phone" class="txtfield" placeholder="Phone number">
+        
+        <input type="text" name="username" id="username" class="txtfield" placeholder="Username">
+
+        <input type="password" name="password" id="password" class="txtfield" placeholder="Password">
+
+        <input type="password" name="repassword" id="repassword" class="txtfield" placeholder="Confirm Password">
+
+        <div class="center"><input type="submit" name="loginbtn" id="loginbtn" class="flatbtn-blu hidemodal" value="Signup"></div>
+      </form>
+  </div>
+	<br>
+  		<footer id="copyright">&copy; 2014 <a href="/privacy">Privacy Policy</a></footer>
+  	</div>
+</div>
+<script type="text/javascript">
+$(function(){
+  $('#loginform').submit(function(e){
+    return false;
+  });
+  
+  $("a[rel*=mod]").leanModal({ top: 110, overlay: 0.45, closeButton: ".hidemodal" });
+});
+</script>
+</body>
+</html>

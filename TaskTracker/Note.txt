@@ -1,0 +1,3 @@
+If you have wamp, paste the tasktracker folder into www. If you have LAMP, paste it in htdocs.
+
+It will also open outside of the server i think. Please try it.

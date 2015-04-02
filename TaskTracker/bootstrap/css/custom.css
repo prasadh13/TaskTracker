@@ -1,0 +1,17 @@
+@charset "utf-8";
+/* CSS Document */
+#quote{
+	font-family: 'Josefin Sans', Helvetica, Arial, sans-serif;
+    font-size: 18px;
+    line-height: 25px;
+    margin-top: 10px;
+}
+
+#author{
+font-family: 'Dancing Script', Georgia, Times, serif;
+    font-size: 18px;
+	line-height: 25px;
+    margin-top: 10px;	
+}
+
+
