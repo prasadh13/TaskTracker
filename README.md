@@ -1,17 +1,8 @@
-<<<<<<< HEAD
-SE_Proj
+
+
 =======
-If you get error after pulling the project to eclipse, create a empty folder 'resources' at src/main
-
-Software engineering class project
-
-//Checking Committ action Rakesh
-
-//Checking commit action Sumit
-
-//Test commit...Prasad
-=======
-# TaskTracker
+# TaskTracker 
+The project files are in Task folder
 
 TaskTracker is a class project. It was developed in a team of four.
 Idea-
@@ -27,4 +18,4 @@ My contribution:
 
 
 Please find the attached snapshots in the repo
->>>>>>> a23049bb236749c41d53cd662f88f0d8093457ca
+
